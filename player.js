@@ -7,7 +7,6 @@ class Player {
       if (end) {
         fill("green");
         rect((50 * x) / 2, (y * 50) / 2, 50, 50);
-        console.log("geschafft");
       } else {
         fill("blue");
         rect((50 * x) / 2, (y * 50) / 2, 50, 50);
