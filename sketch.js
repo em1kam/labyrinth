@@ -87,7 +87,7 @@ function draw() {
     fill("gray");
     text("Versuch: " + c, 25, (plan.length / 2) * 50 + 150);
     textSize(25)
-    text("Spielprinzip: Du erstellst ein quadratisches Labyrinth, dessen Wände du nicht sehen kannst.\n\nRegeln: \n-> gib oben die Breite(/Länge) deines Spielfeldes ein (auch während des Spieles möglich) \n-> je größer das Spielfeld, desto schieriger\n-> klicke dann einmal außerhalb der Textbox auf den Bildschirm \n-> du kannst den Spieler mit den Pfeiltasten bewegen \n-> wenn du gegen eine Wand läufst, wirst du zurückgesetzt \n\nZiel: erreiche das orangene Spielfeld",50, (plan.length / 2) * 50 + 200)
+    text("Spielprinzip: Du suchst den Weg durch ein selbst erstelltes quadratisches Labyrinth, dessen Wände du nicht sehen kannst.\n\nRegeln: \n-> gib oben die Breite(/Länge) deines Spielfeldes ein (auch während des Spieles möglich) \n-> je größer das Spielfeld, desto schwieriger\n-> klicke dann einmal außerhalb der Textbox auf den Bildschirm \n-> du kannst den Spieler mit den Pfeiltasten bewegen \n-> wenn du gegen eine Wand läufst, wirst du zurückgesetzt \n\nZiel: erreiche das orangene Feld",50, (plan.length / 2) * 50 + 200)
 
     //console.log(plan)
     for (let x = 0; x < plan.length; x++) {
