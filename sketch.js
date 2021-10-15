@@ -70,7 +70,7 @@ function creategame() {
 }
 
 function setup() {
-  createCanvas(1500, 700);
+  createCanvas(1400, 700);
   
  
   let inp = createInput("");
